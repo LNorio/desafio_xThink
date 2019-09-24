@@ -1,0 +1,31 @@
+#divDados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#divDados h1 {
+    color: rgba(0,0,90);
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    width: 95%;
+}
+
+#divConfirmar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5%;
+}
+
+#nome {
+    width: 600px;
+}
+
+#email {
+    width: 600px;
+}
+
+#sexo {
+    width: 100px;
+}

@@ -1,0 +1,46 @@
+#purchDiv {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#purchase {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#purchase h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,0,0,0.65);
+    margin: 0;
+}
+
+#purchase p {
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.65);
+    margin: 0;
+}
+
+#purchase p span {
+    color: rgba(0,0,200,0.6);
+}
+
+#purchase img {
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

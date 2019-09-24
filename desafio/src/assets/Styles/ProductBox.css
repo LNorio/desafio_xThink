@@ -1,0 +1,43 @@
+#divFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    justify-self: center;
+    width: 60%;
+}
+
+#divFlex h1 {
+    color: rgba(0,0,90);
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    width: 95%;
+}
+
+.box {
+    border: 1px solid;
+    width: 20%;
+    border-radius: 3%;
+    margin: 0 0 25px 40px;
+    padding-left: 10px;
+    height: 200px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.box h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.box p {
+    margin: 0;
+    font-size: 13px;
+}
