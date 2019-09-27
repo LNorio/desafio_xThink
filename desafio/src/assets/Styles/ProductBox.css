@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: center; 
     justify-self: center;
-    width: 60%;
+
 }
 
 #divFlex h1 {
@@ -15,29 +15,172 @@
 }
 
 .box {
-    border: 1px solid;
+    display: flex;
+    flex-direction: column;
     width: 20%;
-    border-radius: 3%;
-    margin: 0 0 25px 40px;
-    padding-left: 10px;
-    height: 200px;
+    border-radius: 5px;
+    margin: 0 0 2% 2%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 700px;
+    text-align: initial;
+    background-color: white;
+    border: none;
 }
 
-.box img {
+.box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
     width: 100%;
 }
-
 .box h2 {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: normal;
 }
 
 .box h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .box p {
     margin: 0;
-    font-size: 13px;
+    font-size: 1.2rem;
+}
+
+.box img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+.box div div p {
+    padding-top: 5px;
+    width: 40%;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 30px;
+    border-radius: 5px;
+}
+
+.box div div button {
+    border-radius: 50%;
+    background-color: rgba(163,171,188);
+    border: none;
+}
+
+.contador{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1140px){
+    .box{
+        height: 450px;
+    }
+
+    .box h2 {
+        font-size: 1.0rem;
+    }
+    
+    .box h3 {
+        font-size: 1.5rem;
+    }
+    
+    .box p {
+        font-size: 0.7rem;
+    }
+
+    .box div  div p {
+        font-size: 1.0rem;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    #divFlex {
+        justify-content: flex-start;
+    }
+
+    #divFlex h1{
+        margin-left: 10px;
+    }
+
+    .box{
+        width: 29%;
+        height: 420px;
+    }
+
+    .box h2 {
+        font-size: 0.8rem;
+    }
+    
+    .box h3 {
+        font-size: 1.2rem;
+    }
+    
+    .box p {
+        font-size: 0.5rem;
+    }
+
+    .box div div{
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    #divFlex {
+        justify-content: center;
+    }
+
+    .box{
+        width: 80%;
+        height: 620px;
+    }
+
+    .box h2 {
+        font-size: 1.0rem;
+    }
+    
+    .box h3 {
+        font-size: 1.8rem;
+    }
+    
+    .box p {
+        font-size: 1.0rem;
+    }
+
+    .box div div{
+        height: 60px;
+    }
+
+    .box div  div p {
+        padding-top: 8px;
+        font-size: 1.0rem;
+        height: 30px;
+    }
+
+}
+
+.box:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.box div button:hover{
+    background-color: rgba(163,171,220);
+}
+
+.box div button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
 }

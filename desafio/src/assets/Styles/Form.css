@@ -15,17 +15,79 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 5%;
+    padding-right: 2%;
+    margin-bottom: 5%;
 }
 
 #nome {
-    width: 600px;
+    width: 400px;
 }
 
 #email {
-    width: 600px;
+    width: 400px;
 }
 
 #sexo {
     width: 100px;
 }
+
+@media screen and (max-width: 1140px){
+    #nome {
+        width: 300px;
+    }
+    
+    #email {
+        width: 300px;
+    }
+    
+    #sexo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #nome {
+        width: 200px;
+    }
+    
+    #email {
+        width: 200px;
+    }
+    
+    #sexo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    #divDados {
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+
+    #nome {
+        width: 250px;
+    }
+    
+    #email {
+        width: 250px;
+    }
+    
+    #sexo {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    #divDados {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    #divConfirmar {
+        padding-right: 5%;
+        margin-bottom: 5%;
+    }
+}
+

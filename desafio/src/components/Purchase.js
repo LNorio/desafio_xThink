@@ -9,9 +9,9 @@ const Purchase = () => {
     return (
         <div id="purchDiv">
             <Box id="purchase">
-                <h1>John Doe,</h1>
+                <h1>{sessionStorage.getItem('@desafio-app/username')},</h1>
                 <p>Sua Compra no valor 
-                    <span> R$ 299,00 </span>
+                    <span> R$ {sessionStorage.getItem('@desafio-app/total')} </span>
                     foi finalizada com sucesso
                 </p>
                 <img src={Purch} alt="icone de compra finalizada"/>

@@ -1,57 +1,49 @@
 {"products":[
         {
             "name": "AirPods Apple Fone de ouvido",
-            "price": "1.4499,00",
-            "img": "../assets/images/produto-01.jpeg",
+            "price": "1499,00",
             "parcel": "124,92",
             "pay_up": "1.349"
         },
         {
             "name": "Capa de silicone para iPhone 8/7 cor Areia - rosa",
             "price": "299,00",
-            "img": "../assets/images/produto-02.jpeg",
             "parcel": "24,92",
             "pay_up": "269,10"
         },
         {
             "name": "Apple Pencil",
             "price": "729,00",
-            "img": "../assets/images/produto-03.jpeg",
             "parcel": "60,75",
             "pay_up": "656,10"
         },
         {
             "name": "Magic Mouse 2 - Prateado",
             "price": "549,00",
-            "img": "../assets/images/produto-04.jpeg",
             "parcel": "45,75",
             "pay_up": "494,10"
         },
         {
             "name": "Caixa prateada de alumínio com pulseira esportiva branca ",
-            "price": "2,899,00",
-            "img": "../assets/images/produto-05.jpeg",
+            "price": "2899,00",
             "parcel": "241,58",
-            "pay_up": "2,609,10"
+            "pay_up": "2.609,10"
         },
         {
             "name": "Cabo de lightning para USB (1m)",
             "price": "149,00",
-            "img": "../assets/images/produto-06.jpeg",
             "parcel": "12,42",
             "pay_up": "134,10"
         },
         {
             "name": "Smart Keyboard para iPad Pro 12,9 polegadas - inglês (EUA)",
-            "price": "1,099,00",
-            "img": "../assets/images/produto-07.jpeg",
+            "price": "1099,00",
             "parcel": "91,58",
             "pay_up": "989,10"
         },
         {
             "name": "Carregador USB de 5W Apple",
             "price": "149,00",
-            "img": "../assets/images/produto-08.jpeg",
             "parcel": "12,42",
             "pay_up": "134,10"
         }
