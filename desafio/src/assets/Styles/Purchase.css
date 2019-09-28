@@ -10,7 +10,7 @@
 #purchase {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 320px;
     height: 450px;
     background-color: white;
     border-radius: 5px;

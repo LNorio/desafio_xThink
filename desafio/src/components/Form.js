@@ -7,10 +7,6 @@ import '../assets/Styles/Form.css'
 
 const currencies = [
     {
-        value: '',
-        label: ''
-    },
-    {
       value: 'M',
       label: 'M'
     },
@@ -22,7 +18,7 @@ const currencies = [
   
 const Form = () => {
 
-    const useStyles = makeStyles( () => ({
+    const useStyles = makeStyles(() => ({
         text: {
             marginBottom: 30,
             marginRight: 20
@@ -95,7 +91,7 @@ const Form = () => {
                 </TextField>
             </div>
             <div id="divConfirmar">
-                <h2 id="total" >Total: {sessionStorage.getItem('@desafio-app/total')}</h2>
+                <h2 id="total" >Total: R$ {sessionStorage.getItem('@desafio-app/total')}</h2>
                 <Link to="/purchase">
                     <Button variant="contained" color="primary" onClick={sessionStorage.setItem('@desafio-app/username',values.name)}>
                         Finalizar Compra
